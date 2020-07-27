@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>김범준과 김지우의 결혼식</title>
+    <!-- <meta content="김범준과 김지우의 결혼식에 와서 축하해주세요~!" name="description"/> -->
+    <!-- <meta property="og:image" content="images/g17.jpg"> -->
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="김범준 ♡ 김지우의 모바일청첩장">
+    <meta property="og:description" content="2020년 09월 05일  토요일 오후 12:30">
+    <meta property="og:url" content="https://junjyu.herokuapp.com">
+    <meta property="og:image" content="images/k.jpg">
+<!--     <meta property=”og:title” content=김범준과 김지우의 결혼식에 와서 축하해주세요!”>
+     <meta property="og:image" content="images/g17.jpg">
+    <meta property=”og:image:width” content=”512"/>
+     <meta property=”og:image:height” content=”512"/> 
+    <meta property=”og:url” content=”junjyu.herokuapp.com"/> 
+    <meta property=”og:site_name” content=김범준 김지우 결혼식”/> 
+    <meta property=”og:type” content=”website”/> -->
+
+    <link href="images/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="images/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="images/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="css/ekko-lightbox.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Gugi|Noto+Serif+KR|Stylish|Sunflower:300" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.js" type="text/javascript"></script>
+
+    <!-- Core CSS file -->
+    <link rel="stylesheet" href="css/photoswipe.css"> 
+
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+         In the folder of skin CSS file there are also:
+         - .png and .svg icons sprite, 
+         - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="css/default-skin/default-skin.css"> 
+
+    <!-- Core JS file -->
+    <script src="js/photoswipe.min.js"></script> 
+
+    <!-- UI JS file -->
+    <script src="js/photoswipe-ui-default.min.js"></script> 
+</head>
+<style>
+.parent .info > p {
+    line-height: 26px;
+}
+.parent .info > p span {
+    font-size: 14px;
+    color: #6e6e6e;
+}
+
+.parent .info > p i {
+    font-size: 18px;
+    color: #000;
+}
+i {
+    font-style: normal
+}
+
+.card a img {
+    border-radius: 100%;
+    padding: 10px;
+}
+
+</style>
+
+<body id="top">
+<header></header>
+<div id="fb-root"></div>
+<div class="page-content">
+    <div class="div">
+        <div class="ww-home-page" id="home">
+            <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
+                <div class="container ww-announcement-container">
+                    <p class="ww-couple-name ww-title" style="font-size:4.0em">Beomjun & Jiwoo</p>
+                    <p class="h2 mt-5 ww-title" style="font-family: 'Gugi', cursive; font-size:1.0em">
+                        | WE ARE GETTING MARRIED |
+                    </p>
+                    <p class="h2 mt-5 ww-title"
+                       style="font-family: 'Noto Serif KR', serif; font-size:1.0em; letter-spacing:-1px">
+                        <b style="font-size:1.4em;">2020. 09. 05. 토요일 낮 12:30</b>
+                        <br>보테가마지오 '로스타뇨 홀'
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="ww-nav-bar sticky-top bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <button aria-controls="ww-navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                            class="navbar-toggler"
+                            data-target="#ww-navbarNav" data-toggle="collapse" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse text-uppercase" id="ww-navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#couple">Couple</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#events">Events</a></li>
+                            <li class="nav-item"><a class="nav-link smooth-scroll" href="#gallery">Gallery</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="ww-section" id="couple">
+            <div class="container">
+                <h2 class="h1 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">신랑 & 신부</h2>
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <div class="mt-3">
+                            <h3 class="h2 ww-title" style="font-family: 'Great Vibes', cursive; font-size:1.5em">
+                                Jiwoo</h3>
+                            <img alt="Groom" class="img-fluid" src="images/jw2.jpg"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mt-3">
+                            <h3 class="h2 ww-title" style="font-family: 'Great Vibes', cursive; font-size:1.5em">
+                                Beomjun</h3>
+                            <img alt="Bride" class="img-fluid" src="images/bj2.jpg"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ww-section bg-light" id="events">
+            <div class="container ww-wedding-event">
+                <h2 class="h1 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">초대합니다</h2>
+                <div class="col text-center mb-5">
+                    <h4 style="font-family: 'Noto Serif KR', serif;">
+                        &#128145; 범준이와 지우의 결혼식 &#128145;<br>
+                    </h4>
+                    <br>
+                    <p style="font-family: 'Noto Serif KR', serif; line-height: 150%; color:#777777; font-size:0.9em">
+                    예전, 아주 작은 인연이 저희를 연인으로 만들었고<br>
+                    오늘, 그 인연으로 저희가 하나가 됩니다.<br>
+                    작은 사랑으로 하나의 커다란 열매를 맺고<br>
+                    이제 또 다른 모습으로 사랑하고자 하는 두 사람,<br>
+                    오셔서 지켜봐 주시고 축하해 주십시오.<br>
+                    늘 그 인연을 생각하며 살겠습니다.
+                    </p>
+                </div>
+                <div class="row" style="padding: 30px 0 35px;">
+                    <div class="col-6 text-center parent">
+                        <div class=sub-title>
+                            <p style="color:#001f6b;">신랑측 혼주</p>
+                            
+                            </p>
+                        </div>
+                        <div class=info>
+                            <p>
+                                <span>아버지</span>
+                                <i class="GR_FA">김희용</i>
+                        </div>
+                        <div class=info>
+                            <p>
+                                <span>어머니</span>
+                                <i class="GR_FA">박순복</i>
+                        </div>
+                    </div>
+                    <div class="col-6 text-center parent">
+                        <p style="color:#de6251;">신부측 혼주</p>
+                        <div class=info>
+                            <p>
+                                <span>아버지</span>
+                                <i class="GR_FA">김용주</i>
+                        </div>
+                        <div class=info>
+                            <p>
+                                <span>어머니</span>
+                                <i class="GR_FA">이은경</i>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="row">
+                    <div class="col-md-7 col-sm-12">
+                        <div class="my-3">
+                            <div class="h4">웨딩 본식</div>
+                            <ul>
+                                <li>
+                                    <i class="text-muted fas fa-map-marker-alt"></i>
+                                    <span class="pl-2 text-muted">보테가마지오 G층 로스타뇨 홀</span>
+                                </li>
+                                <li class="pt-2">
+                                    <i class="text-muted far fa-calendar-alt"></i>
+                                    <span class="pl-2 text-muted">2020년 9월 5일 토요일 PM 12:30</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <div class="my-3">
+                            <img alt="Wedding Party" class="img-fluid" src="images/lostagno.jpg"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 col-sm-12">
+                        <div class="my-3">
+                            <div class="h4">식사</div>
+                            <ul>
+                                <li>
+                                    <i class="text-muted fas fa-map-marker-alt "></i>
+                                    <span class="pl-2 text-muted">보테가마지오 G층 라포레스타 홀</span>
+                                </li>
+                                <li class="pt-2">
+                                    <i class="text-muted far fa-calendar-alt "></i>
+                                    <span class="pl-2 text-muted">2020년 9월 5일 토요일 PM 12:00 - 14:30</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <div class="my-3"><img alt="Reception" class="img-fluid" src="images/laforesta.jpg"/></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ww-section" id="gallery">
+            <div class="ww-photo-gallery">
+                <div class="container">
+                    <h2 class="h1 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif; margin-bottom: 30px">포토 갤러리</h2>
+                    <div class="ww-gallery">
+                        <div class="card-columns my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                            <figure class="card" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                              <a href="images/963_orig.jpg" itemprop="contentUrl" data-size="682x1024">
+                                  <img src="images/963.jpg" itemprop="thumbnail" class="img-fluid" alt="Image description" />
+                              </a>
+                              <!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+                            </figure>
+                            <figure class="card" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                              <a href="images/337_orig.jpg" itemprop="contentUrl" data-size="683x1024">
+                                  <img src="images/337.jpg" itemprop="thumbnail" class="img-fluid" alt="Image description" />
+                              </a>
+                              <!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+                            </figure>
+                            <figure class="card" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                              <a href="images/2518_orig.jpg" itemprop="contentUrl" data-size="1024x683">
+                                  <img src="images/2518.jpg" itemprop="thumbnail" class="img-fluid" alt="Image description" />
+                              </a>
+                              <!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+                            </figure>
+                            <figure class="card" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                              <a href="images/1178_orig.jpg" itemprop="contentUrl" data-size="683x1024">
+                                  <img src="images/1178.jpg" itemprop="thumbnail" class="img-fluid" alt="Image description" />
+                              </a>
+                              <!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+                            </figure>
+                            <figure class="card" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                              <a href="images/1874_orig.jpg" itemprop="contentUrl" data-size="683x1024">
+                                  <img src="images/1874.jpg" itemprop="thumbnail" class="img-fluid" alt="Image description" />
+                              </a>
+                              <!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+                            </figure>
+                            <figure class="card" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                              <a href="images/2564_orig.jpg" itemprop="contentUrl" data-size="683x1024">
+                                  <img src="images/2564.jpg" itemprop="thumbnail" class="img-fluid" alt="Image description" />
+                              </a>
+                              <!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+                            </figure>
+                            <figure class="card" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                              <a href="images/1617_orig.jpg" itemprop="contentUrl" data-size="683x1024">
+                                  <img src="images/1617.jpg" itemprop="thumbnail" class="img-fluid" alt="Image description" />
+                              </a>
+                              <!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+                            </figure>
+                            <figure class="card" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                              <a href="images/579_orig.jpg" itemprop="contentUrl" data-size="683x1024">
+                                  <img src="images/579.jpg" itemprop="thumbnail" class="img-fluid" alt="Image description" />
+                              </a>
+                              <!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+                            </figure>
+                            <figure class="card" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                              <a href="images/1685_orig.jpg" itemprop="contentUrl" data-size="683x1024">
+                                  <img src="images/1685.jpg" itemprop="thumbnail" class="img-fluid" alt="Image description" />
+                              </a>
+                              <!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+                            </figure>
+                        </div>
+                        <!-- <div class="card-columns">
+                            <div class="card" data-groups="[&quot;party&quot;,&quot;wedding&quot;]">
+                                <a data-gallery="ww-gallery" data-toggle="lightbox">
+                                    <img alt="Gallery Pic 2" class="img-fluid" src="images/g5.jpg"/>
+                                </a>
+                            </div>
+                            <div class="card" data-groups="[&quot;vacation&quot;]">
+                                <a data-gallery="ww-gallery" data-toggle="lightbox">
+                                    <img alt="Gallery Pic 3" class="img-fluid" src="images/g10.jpg"/>
+                                </a>
+                            </div>
+                            <div class="card" data-groups="[&quot;party&quot;,&quot;vacation&quot;]">
+                                <a data-gallery="ww-gallery" data-toggle="lightbox">
+                                    <img alt="Gallery Pic 4" class="img-fluid" src="images/g11.jpg"/>
+                                </a>
+                            </div>
+                            <div class="card" data-groups="[&quot;vacation&quot;]">
+                                <a data-gallery="ww-gallery" data-toggle="lightbox">
+                                    <img alt="Gallery Pic 5" class="img-fluid" src="images/g12.jpg"/>
+                                </a>
+                            </div>
+                            <div class="card"
+                                 data-groups="[&quot;wedding&quot;,&quot;ceremony&quot;,&quot;party&quot;]">
+                                <a data-gallery="ww-gallery" data-toggle="lightbox">
+                                    <img alt="Gallery Pic 6" class="img-fluid" src="images/g14.jpg"/>
+                                </a>
+                            </div>
+                            <div class="card" data-groups="[&quot;vacation&quot;]">
+                                <a data-gallery="ww-gallery" data-toggle="lightbox">
+                                    <img alt="Gallery Pic 7" class="img-fluid" src="images/g16.jpg"/>
+                                </a>
+                            </div>
+                            <div class="card" data-groups="[&quot;vacation&quot;]">
+                                <a data-gallery="ww-gallery" data-toggle="lightbox">
+                                    <img alt="Gallery Pic 7" class="img-fluid" src="images/g17.jpg"/>
+                                </a>
+                            </div>
+                            <div class="card" data-groups="[&quot;vacation&quot;]">
+                                <a data-gallery="ww-gallery" data-toggle="lightbox">
+                                    <img alt="Gallery Pic 7" class="img-fluid" src="images/g18.jpg"/>
+                                </a>
+                            </div>
+                            <div class="card" data-groups="[&quot;vacation&quot;]">
+                                <a data-gallery="ww-gallery" data-toggle="lightbox">
+                                    <img alt="Gallery Pic 7" class="img-fluid" src="images/g19.jpg"/>
+                                </a>
+                            </div> -->
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ww-section ww-rsvp-detail" id="map">
+            <div class="container">
+                <div class="col text-center">
+                    <h2 class="h1 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">오시는 길</h2>
+                    <div class="my-3">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.401806222011!2d127.04024911629804!3d37.54559613308303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca49cffffffff%3A0x42b4151a9bbb5b4c!2z67O07YWM6rCA66eI7KeA7Jik!5e0!3m2!1sko!2skr!4v1595753776223!5m2!1sko!2skr" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    <div class="text-center">
+                        <div class="h5">지하철 안내</div>
+                        <div class="ww-wedding-event">
+                            <ul>
+                                <li>
+                                    <i class="text-muted fas fa-map-marker-alt"></i>
+                                    <span class="pl-2 text-muted">분당선 서울숲역 4번출구 도보 2분</span>
+                                </li>
+                                <li class="pt-2">
+                                    <i class="text-muted far fa-calendar-alt"></i>
+                                    <span class="pl-2 text-muted">2호선 뚝섬역 8번출구 도보 5분</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="h5">버스 안내</div>
+                        <div class="ww-wedding-event">
+                            <ul>
+                                <li>
+                                    <i class="text-muted fas fa-map-marker-alt"></i>
+                                    <span class="pl-2 text-muted">121, 141, 145, 148, 463 - 뚝섬 서울숲 정류장</span>
+                                </li>
+                                <li class="pt-2">
+                                    <i class="text-muted far fa-calendar-alt"></i>
+                                    <span class="pl-2 text-muted">121, 2014, 2224, 2413 - 성동구민 종합체육센터 정류장</span>
+                                </li>
+                                <li class="pt-2">
+                                    <i class="text-muted far fa-calendar-alt"></i>
+                                    <span class="pl-2 text-muted">2016, 2224, 2413 - 뚝섬역 8번출구 정류장</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="h5">주차 안내</div>
+                        <div class="ww-wedding-event">
+                            <ul>
+                                <li>
+                                    <i class="text-muted fas fa-map-marker-alt"></i>
+                                    <span class="pl-2 text-muted">건물 내 지하 4개 층 2시간 무료주차 가능</span>
+                                </li>
+                                <li class="pt-2">
+                                    <i class="text-muted far fa-calendar-alt"></i>
+                                    <span class="pl-2 text-muted">(주차 공간 여유 있습니다)</span>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <div class="my-3 text-center">
+                            <a href="http://naver.me/5PiOVKIT">
+                                <img alt="naver-map" class="map-icon" id="naver-map"
+                                     src="images/map/naver-map.png"/>
+                            </a>
+                            <a href="https://place.map.kakao.com/133745576">
+                                <img alt="kakao-map" class="map-icon" id="kakao-map"
+                                     src="images/map/kakao-map.png"/>
+                            </a>
+                            <a href="https://goo.gl/maps/CrgFEhjJiMxwHtRG9">
+                                <img alt="google-map" class="map-icon" id="google-map"
+                                     src="images/map/google-map.png"/>
+                            </a>
+                        </div>
+                        <!-- <div class="col text-center">
+                            <label style="font-family: 'Noto Serif KR', serif; font-size: 15px;">
+                            </label>
+                        </div> -->
+                        
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="ww-section ww-rsvp-detail bg-light" id="account" style="margin-top: 150px;">
+            <div class="container">
+                <div class="col text-center">
+                    <div class="h4 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">축하 , 마음으로 전달할 곳</div>
+                    <div class="row" style="padding: 30px 0 35px;">
+                    <div class="col-12 text-center parent">
+                        <!-- <p style="color:#de6251;">신부혼주</p> -->
+                        <div class=info>
+                        <p></p>
+                        <p><span>국민은행 337102-04-203200  김용주</span></p>
+                        <p>김용주 010 5361 1767</p>
+                        <p>이은경 010 5047 1767</p>
+                        </div>
+                        <!-- <div class=info>
+                            <p>
+                                <span>어머니</span>
+                                 <i class="GR_FA">이은경</i>
+                        </div> -->
+                    </div>
+                    
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<footer></footer>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/ekko-lightbox.min.js"></script>
+<script src="scripts/main.js"></script>
+
+<div class="bottom_right"><i class="fa fa-arrow-up fa-2x" id="go-to-top"></i>
+</div>
+
+</body>
+<script>
+    // (function(window, $, PhotoSwipe){
+        
+    //     $(document).ready(function(){
+            
+    //         var options = {};
+    //         $(".my-gallery a").photoSwipe(options);
+        
+    //     });
+        
+    // }(window, window.jQuery, window.Code.PhotoSwipe));
+    var initPhotoSwipeFromDOM = function(gallerySelector) {
+
+    // parse slide data (url, title, size ...) from DOM elements 
+    // (children of gallerySelector)
+    var parseThumbnailElements = function(el) {
+        var thumbElements = el.childNodes,
+            numNodes = thumbElements.length,
+            items = [],
+            figureEl,
+            linkEl,
+            size,
+            item;
+
+        for(var i = 0; i < numNodes; i++) {
+
+            figureEl = thumbElements[i]; // <figure> element
+
+            // include only element nodes 
+            if(figureEl.nodeType !== 1) {
+                continue;
+            }
+
+            linkEl = figureEl.children[0]; // <a> element
+
+            size = linkEl.getAttribute('data-size').split('x');
+
+            // create slide object
+            item = {
+                src: linkEl.getAttribute('href'),
+                w: parseInt(size[0], 10),
+                h: parseInt(size[1], 10)
+            };
+
+
+
+            if(figureEl.children.length > 1) {
+                // <figcaption> content
+                item.title = figureEl.children[1].innerHTML; 
+            }
+
+            if(linkEl.children.length > 0) {
+                // <img> thumbnail element, retrieving thumbnail url
+                item.msrc = linkEl.children[0].getAttribute('src');
+            } 
+
+            item.el = figureEl; // save link to element for getThumbBoundsFn
+            items.push(item);
+        }
+
+        return items;
+    };
+
+    // find nearest parent element
+    var closest = function closest(el, fn) {
+        return el && ( fn(el) ? el : closest(el.parentNode, fn) );
+    };
+
+    // triggers when user clicks on thumbnail
+    var onThumbnailsClick = function(e) {
+        e = e || window.event;
+        e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+        var eTarget = e.target || e.srcElement;
+
+        // find root element of slide
+        var clickedListItem = closest(eTarget, function(el) {
+            return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
+        });
+
+        if(!clickedListItem) {
+            return;
+        }
+
+        // find index of clicked item by looping through all child nodes
+        // alternatively, you may define index via data- attribute
+        var clickedGallery = clickedListItem.parentNode,
+            childNodes = clickedListItem.parentNode.childNodes,
+            numChildNodes = childNodes.length,
+            nodeIndex = 0,
+            index;
+
+        for (var i = 0; i < numChildNodes; i++) {
+            if(childNodes[i].nodeType !== 1) { 
+                continue; 
+            }
+
+            if(childNodes[i] === clickedListItem) {
+                index = nodeIndex;
+                break;
+            }
+            nodeIndex++;
+        }
+
+
+
+        if(index >= 0) {
+            // open PhotoSwipe if valid index found
+            openPhotoSwipe( index, clickedGallery );
+        }
+        return false;
+    };
+
+    // parse picture index and gallery index from URL (#&pid=1&gid=2)
+    var photoswipeParseHash = function() {
+        var hash = window.location.hash.substring(1),
+        params = {};
+
+        if(hash.length < 5) {
+            return params;
+        }
+
+        var vars = hash.split('&');
+        for (var i = 0; i < vars.length; i++) {
+            if(!vars[i]) {
+                continue;
+            }
+            var pair = vars[i].split('=');  
+            if(pair.length < 2) {
+                continue;
+            }           
+            params[pair[0]] = pair[1];
+        }
+
+        if(params.gid) {
+            params.gid = parseInt(params.gid, 10);
+        }
+
+        return params;
+    };
+
+    var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
+        var pswpElement = document.querySelectorAll('.pswp')[0],
+            gallery,
+            options,
+            items;
+
+        items = parseThumbnailElements(galleryElement);
+
+        // define options (if needed)
+        options = {
+
+            // define gallery index (for URL)
+            galleryUID: galleryElement.getAttribute('data-pswp-uid'),
+
+            getThumbBoundsFn: function(index) {
+                // See Options -> getThumbBoundsFn section of documentation for more info
+                var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
+                    pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+                    rect = thumbnail.getBoundingClientRect(); 
+
+                return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
+            }
+
+        };
+
+        // PhotoSwipe opened from URL
+        if(fromURL) {
+            if(options.galleryPIDs) {
+                // parse real index when custom PIDs are used 
+                // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
+                for(var j = 0; j < items.length; j++) {
+                    if(items[j].pid == index) {
+                        options.index = j;
+                        break;
+                    }
+                }
+            } else {
+                // in URL indexes start from 1
+                options.index = parseInt(index, 10) - 1;
+            }
+        } else {
+            options.index = parseInt(index, 10);
+        }
+
+        // exit if index not found
+        if( isNaN(options.index) ) {
+            return;
+        }
+
+        if(disableAnimation) {
+            options.showAnimationDuration = 0;
+        }
+
+        // Pass data to PhotoSwipe and initialize it
+        gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+    };
+
+    // loop through all gallery elements and bind events
+    var galleryElements = document.querySelectorAll( gallerySelector );
+
+    for(var i = 0, l = galleryElements.length; i < l; i++) {
+        galleryElements[i].setAttribute('data-pswp-uid', i+1);
+        galleryElements[i].onclick = onThumbnailsClick;
+    }
+
+    // Parse URL and open gallery if it contains #&pid=3&gid=1
+    var hashData = photoswipeParseHash();
+    if(hashData.pid && hashData.gid) {
+        openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
+    }
+};
+
+// execute above function
+initPhotoSwipeFromDOM('.my-gallery');
+
+
+</script>
+</html>
